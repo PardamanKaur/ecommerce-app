@@ -1,0 +1,74 @@
+/* Updated AuthStyle.css to match the style of the old one */
+
+/* ===================================
+========= register page  */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+
+.form-container form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+.form-container form input {
+  border: none;
+  border-bottom: 1px solid #333;
+  border-radius: 0;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-family: "Arial", sans-serif;
+}
+
+.form-container form button {
+  border: 1px solid #333;
+  border-radius: 0;
+  background-color: #333;
+  color: white;
+  width: 250px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+}
+
+.form-container form button:hover {
+  border: 1px solid #333;
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+  color: cyan; /* Updated font color when hovered over */
+}
+
+/* Other components from the old AuthStyle.css are added here */
+
+.forgot-btn {
+  background-color: #434343a4 !important;
+  border: 0 !important;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+}
+
+.forgot-btn:hover {
+  color: white !important;
+}
+
+/* Add any other missing components here */
+
